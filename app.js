@@ -98,6 +98,10 @@ document.querySelector('p').addEventListener('click', function() {
     window.location.href = 'thulai2.html';
    });
 
+document.getElementById('ra').addEventListener('click', function(){
+    window.location.href = 'thu3.html';
+})
+
 
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i)=>{
     e.getElementsByTagName('img')[0].src = songs[i].poster;
